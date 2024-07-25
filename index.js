@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
   res.end(`
     <html>
       <head>
-        <title>Your Web View</title>
+        <title>index.ejs</title>
       </head>
       <body style="margin: 0; padding: 0;">
         <iframe width="100%" height="100%" src="https://axocoder.vercel.app/" frameborder="0" allowfullscreen></iframe>
